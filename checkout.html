@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="/javascript/main.js" type="text/javascript"></script>
+    <title>FastFood King</title>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="burger.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            FastFood King
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="order.html">Order Now</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="howwork.html">How We Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <h1 style="margin-top: 5%;text-align: center;" class="h1">Your Shopping Cart</h1>
+    <!-- <button class="btn btn-primary" onclick="cart()">Hello</button> -->
+    <div style="margin-top: 2%; margin-left: 5%;margin-right: 10%;">
+        <div class="card mb-3" style="width: 100%;" id="item1">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="burgershop.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Veg Burger</h5>
+                <p class="card-text"></p>
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item2">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="burgershop.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Non Veg Burger</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item3">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="roll.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Paneer Roll</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item4">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="roll.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Chicken Roll</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item5">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="pizza.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Veg Pizza</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item6">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="nonvegpizza.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Chicken Pizza</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item7">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="whitepasta.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">White Sauce Pasta</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item8">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="pasta.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Red Sauce Pasta</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item9">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="frenchfries.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">French Fries</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item10">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="pepsi.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Pepsi</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item11">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="icecream.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Ice Cream</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 100%;"id="item12">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="popcorn.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title" style="font-size: 200%;">Pop Corn</h5>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>    
+</body>
+
+</html>
